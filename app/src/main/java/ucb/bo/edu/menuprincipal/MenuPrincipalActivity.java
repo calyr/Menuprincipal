@@ -1,5 +1,6 @@
 package ucb.bo.edu.menuprincipal;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,7 +20,8 @@ public class MenuPrincipalActivity extends AppCompatActivity {
 
     public void selectButton(View view) {
         if (view.getId() == R.id.btnEventos) {
-            this.txtSelected.setText("Eventos");
+            Intent i = new Intent(this, ServiciosActivity.class);
+            startActivity(i);
         } else if (view.getId() == R.id.btnPortafolio) {
             this.txtSelected.setText("Portafolio");
         }
