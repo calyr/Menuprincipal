@@ -20,6 +20,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icons8_businessman_64" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
