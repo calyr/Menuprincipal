@@ -31,7 +31,7 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Servicios"
@@ -42,7 +42,7 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Portafolio"
@@ -53,7 +53,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Acerca de"
@@ -64,7 +64,7 @@
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Contacto"
@@ -75,7 +75,7 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Redes Sociales"
@@ -83,4 +83,4 @@
             tools:background="@color/colorPrimary" />
     </LinearLayout>
 
-</Liner>
+</LinearLayout>
