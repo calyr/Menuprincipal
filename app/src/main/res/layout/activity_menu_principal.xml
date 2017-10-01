@@ -20,6 +20,20 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boton Seleccionado:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ninguno"
+        android:textAlignment="center" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,32 +42,34 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnEventos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Servicios"
             android:textColor="@android:color/background_light"
-            tools:background="@color/colorPrimary" />
+            tools:background="@color/colorPrimary"
+            android:onClick="selectButton"/>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnPortafolio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Portafolio"
             android:textColor="@android:color/background_light"
-            tools:background="@color/colorPrimary" />
+            tools:background="@color/colorPrimary"
+            android:onClick="selectButton"/>
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Acerca de"
@@ -64,7 +80,7 @@
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Contacto"
@@ -75,12 +91,11 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5pd"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:text="Redes Sociales"
             android:textColor="@android:color/background_light"
             tools:background="@color/colorPrimary" />
     </LinearLayout>
-
-</Liner>
+</LinearLayout>
